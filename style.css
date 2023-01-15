@@ -1,0 +1,592 @@
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* common style end */
+
+/* header */
+header{
+    background: #FFF4E7;
+    padding-bottom: 30px;
+}
+.headerContainer{
+    width: 1440px;
+    margin: auto;
+}
+
+.headerContainer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+nav .logo{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+nav .mainMenu{
+    display: flex;
+
+}
+
+.mainMenu li{
+    list-style: none;
+    margin-right: 20px;
+}
+.mainMenu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.mainMenu li:last-child{
+    margin-right: 0px;
+
+}
+
+.binner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.bannerText{
+    width: 862px;
+    margin: auto;
+    text-align: center;
+}
+
+.bannerText h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75.5px;
+    color: #131313;
+    padding-bottom: 17px;
+
+}
+
+.bannerText p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 32px;
+}
+
+.defaultBtn{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 7px;
+    color: #ffffff;
+    background: #FF900E;
+    margin-bottom: 50px;
+}
+/* header end */
+
+
+/* team Section */
+
+main{
+    padding: 0 50px;
+}
+.teamSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.teamImg{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.teamText{
+    width: 537px;
+}
+
+.teamText h3{
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #727272;
+}
+.teamText h3 span{
+    color: #131313;
+}
+.teamText h3 .span2{
+    color: #FF900E !important;
+
+}
+
+.teamText p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #727272;
+    margin: 25px 0;
+}
+/* team Section end */
+
+/* feature Section */
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.featureText{
+    width: 586px;
+}
+.featureTitle{
+
+}
+
+.featureTitle .fTitle{
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #131313;
+    padding-left: 10px;
+    border-left: 2px solid #FF900E;
+
+}
+
+.featureTitle p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #727272;
+    padding: 24px 0;
+}
+
+.featureDetail{
+    padding: 50px 0;
+}
+.featureDetail h4{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.featureDetail p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #727272;
+
+}
+
+.featureBtn{
+    border: none;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #FF900E;
+    border-radius: 10px;
+    position: relative;
+    left: -40px;
+    bottom: 60px;
+}
+.featureBtn > span{
+    font-size: 65px;
+}
+
+/* feature Section end */
+
+/* project Section */
+.projectSection{}
+.pojectTitle{
+    padding: 60px 0;
+}
+.pojectTitle h3{
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #131313;
+    padding: 24px 0;
+}
+.pojectTitle p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #727272;
+}
+.projectItemSection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 62px;
+}
+
+.pojectDetaile{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px 0;
+    transition: transform .5s;
+    
+}
+
+.pojectDetaile:hover{
+    background: #ff8f0e7e;
+    transform: scale(1.1);
+    
+}
+
+.pojectDetaile img{
+    width: 45px;
+    height: 45px;
+    
+}
+.pojectDetaile h3{}
+.pojectDetaile p{}
+
+/* project Section end */
+
+/* brandLogoSection */
+.brandLogo{
+    padding: 50px 0;
+}
+.brandlogoTitle{
+    text-align: center;
+    padding: 50px 0;
+    
+}
+.brandlogoTitle h3{
+    font-size: 45px;
+    line-height: 52px;
+    color: #131313;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.brandlogoTitle p{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #727272;
+    padding-bottom: 24px;
+}
+
+.brandLogoSection{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 150px;
+    padding: 50px 0;
+}
+
+.brandLogoItem{}
+.brandLogoItem img{
+    width: 154px;
+}
+
+/* brandLogoSection end */
+
+/* footer Section */
+footer{
+    background: #FFF4E7;
+    padding: 30px 0;
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #424242;
+}
+/* footer Section end */
+
+/*============= responcive design ta============== */
+@media screen and (max-width: 1400px){
+
+    .headerContainer{
+        width: 100%;
+        
+    }
+
+}
+
+
+
+/*============= responcive design ta============== */
+@media screen and (min-width: 576px) and (max-width: 992px){
+
+    header{
+        
+    }
+
+    .headerContainer{
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    .logo h3{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+
+    .headerContainer nav{
+       flex-direction: column;
+       align-items: flex-start;
+    }
+
+    
+
+    nav .mainMenu{
+        flex-direction: column;
+        position: relative;
+        l
+    }
+
+    .bannerText{
+        width: 100%;
+    }
+
+    .bannerText h2{
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .bannerImg{
+        width: 98%;
+    }
+    /* team Section */
+    main{
+        padding: 0 30px;
+    }
+    .teamSection{
+        flex-direction: column;
+    }
+
+    .teamText{
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    .teamText h3{
+        font-size: 27px;
+    }
+
+    /* team Section end */
+
+    /* feature Section */
+    .feature{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .featureText{
+        width: 100%;
+    }
+
+    .featureTitle .fTitle{
+        font-size: 30px;
+    }
+
+    .featureDetail{
+        padding: 20px 0;
+    }
+
+    .featureBtn span{
+        font-size: 48px;
+
+    }
+
+    .featureBtn{
+        left: -15px;
+    }
+    /* feature Section end */
+
+
+    /* project section */
+    .projectItemSection{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 25px;
+    }
+
+    .pojectTitle h3{
+        font-size: 38px;
+    }
+    /* project section end */
+
+
+    /* brand Section */
+    .brandLogoSection{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    /* brand Section end */
+
+    /* footer Section */
+    footer{
+        
+        padding: 30px 20;
+        
+    }
+    footer p{
+        font-size: 16px;
+        
+    }
+    /* footer Section end */
+
+}
+
+   
+    
+/*============= responcive design Mobail============== */
+
+@media  screen and (max-width: 576px) {
+
+    /* comon style */
+    .defaultBtn{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        padding: 13px 20px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    /* comon style  end */
+
+
+    header{
+        
+    }
+
+    .headerContainer{
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    .logo h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+
+    .headerContainer nav{
+       flex-direction: column;
+       align-items: flex-start;
+    }
+
+    
+
+    nav .mainMenu{
+        flex-direction: column;
+        position: relative;
+        l
+    }
+
+    .bannerText{
+        width: 100%;
+    }
+
+    .bannerText h2{
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .bannerImg{
+        width: 98%;
+    }
+    /* team Section */
+    main{
+        padding: 0 30px;
+    }
+    .teamSection{
+        flex-direction: column;
+    }
+
+    .teamText{
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    .teamText h3{
+        font-size: 30px;
+    }
+
+    /* team Section end */
+
+    /* feature Section */
+    .feature{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .featureText{
+        width: 100%;
+    }
+
+    .featureTitle .fTitle{
+        font-size: 35px;
+    }
+
+    .featureDetail{
+        padding: 20px 0;
+    }
+
+    .featureBtn span{
+        font-size: 45px;
+
+    }
+
+    .featureBtn{
+        left: -15px;
+    }
+    /* feature Section end */
+
+
+    /* project section */
+    .projectItemSection{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 25px;
+    }
+
+    .pojectTitle h3{
+        font-size: 35px;
+    }
+    /* project section end */
+
+
+    /* brand Section */
+    .brandLogoSection{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    /* brand Section end */
+
+    /* footer Section */
+    footer{
+        
+        padding: 30px 20;
+        
+    }
+    footer p{
+        font-size: 16px;
+        
+    }
+    /* footer Section end */
+    
+
+ }
